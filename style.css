@@ -93,3 +93,9 @@ nav h4{
     width: 100%;
     background-color: beige;
 }
+
+@media (max-width: 460px) {
+    .textarea_control {
+      grid-column: 1 / span 1;
+    }
+  } ;
